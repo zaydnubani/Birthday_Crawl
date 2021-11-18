@@ -12,8 +12,8 @@
 
 .background{
     display: flex;
-    height: 440px;
-    width: 440px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
     background-image: url("./images/lost_gif.gif");
     align-items: center;
@@ -22,8 +22,8 @@
 
 .face{
     display: flex;
-    height: 340px;
-    width: 340px;
+    height: 200px;
+    width: 200px;
     border-radius: 100%;
     align-items: center;
     justify-content: center;
@@ -34,8 +34,8 @@
 }
 
 .image{
-    height: 240px;
-    width: 240px;
+    height: 100px;
+    width: 100px;
 }
 /* End of Start Page */
 
