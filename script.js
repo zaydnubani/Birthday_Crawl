@@ -193,7 +193,7 @@ $( function() {
   // run the currently selected effect
   function runEffect() {
     // get effect type from
-    var selectedEffect = "explode";
+    var selectedEffect = "puff";
 
     // Most effect types need no options passed by default
     var options = {};

@@ -4,7 +4,7 @@
 
 .mainBG{
     display: flex;
-    height: 400px;
+    height: 300px;
     width: 300px;
     border-radius: 10%;
     background-image: url("./images/lost_gif.gif");
@@ -14,7 +14,7 @@
 
 .secondBG{
     display: flex;
-    height: 300px;
+    height: 250px;
     width: 250px;
     border-radius: 10%;
     align-items: center;
@@ -22,8 +22,8 @@
 }
 
 .img{
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
 }
 
 /* Start of Start page */
@@ -100,7 +100,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 /* ``` */
