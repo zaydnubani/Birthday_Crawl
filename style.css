@@ -1,0 +1,151 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+    font-size: x-small;
+}
+
+.startPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.background{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-image: url("./images/lost_gif.gif");
+    align-items: center;
+    justify-content: center;
+}
+
+.face{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.invitation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.invite{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./images/lost_gif.gif");
+}
+.inviteCard{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.notComingCard{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.lame{
+    font-size: large;
+}
+.Yody{
+    height: 160px;
+    width: 180px;
+}
+
+.nvm{
+    height: 30px;
+    width: fit-content;
+}
+
+.yesNo{
+    height: 50px;
+    width: 50px;
+}
+
+.button{
+    border-radius: 100%;
+}
+
+.BTN{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+}
+
+.mainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.directions{
+    margin: 10px;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    margin: 10px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    background-image: url("./images/Psycho_gif.gif");
+    align-items: center;
+    justify-content: center;
+}
+
+.Liasion{
+    align-items: center;
+    justify-content: center;
+}
+
+.Liasion h3 {
+    margin: 10px;
+}
+
+.Liasion button {
+    margin: 10px;
+    width: 100px;
+
+}
+
+
+
+
+
