@@ -15,50 +15,144 @@
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <section class="startPage container-fluid" value="pulsate">
-            <div class="background p-3 mb-2 bg-secondary text-white" value= "pulsate">
-                <div class="face p-3 mb-2 p-3 mb-2 bg-light text-dark">
+        <section class="startPage">
+            <div class="mainBG p-3 mb-2 bg-secondary text-white" value= "pulsate">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
                     <button type="button" class="Pat btn btn-light">
-                        <img class="image img-fluid animate__animated animate__heartBeat animate__infinite" src="./images/Pat_PNG.png" alt="Pat_PNG">
+                        <img class="img animate__animated animate__heartBeat animate__infinite" src="./images/Pat_PNG.png" alt="Pat_PNG">
                     </button>
                 </div>
             </div>
         </section>
 
         <section class="invitation">
-             <div class="invite bg-light text-dark">
-                 <div class="inviteCard p-3 mb-2 p-3 mb-2 bg-light text-dark row">
+             <div class="mainBG bg-light text-dark">
+                 <div class="inviteCard secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark row">
                     <h3 class="date"></h3>
-                    <h3 id="crawl"></h3>
-                    <h3 id="coming"></h3>
+                    <h3 id="crawl">Fishtown Crawl!</h3>
+                    <h3 id="coming">Are you coming?</h3>
                     <div class="choice col">
-                        <button type="button" class="yes yesNo btn btn-success">Yes</button>
-                        <button type="button" class="no yesNo btn btn-danger">No</button>
+                        <button type="button" class="yes btn btn-success">YER</button>
+                        <button type="button" class="no btn btn-danger">NAH</button>
                     </div>
                  </div>
-                 <div class="notComingCard p-3 mb-2 p-3 mb-2 bg-light text-dark row">
-                        <h3 class="lame animate__animated animate__pulse animate__infinite">SUX 4 U!</h3>
-                        <img class="Yody" src="./images/Yody_PNG.png" alt="Yody_PNG">
-                        <button type="button" class="nvm btn btn-warning">NVM IM IN!</button>
+                 <div class="notComing secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark row">
+                        <h3 class="lame animate__animated animate__pulse animate__infinite">SUCKS TO SUCK!</h3>
+                        <img class="Yody animate__animated animate__headShake animate__infinite" src="./images/Yody_PNG.png" alt="Yody_PNG">
+                        <button type="button" class="nvm btn btn-warning">WAIT!</button>
                  </div>
              </div>
         </section>
 
-        <section class="mainPage">
-            <div class="directions row">
-                <h3>Check this out!</h3>
-                <h3>All you have to do is tap, or click, on the faces!</h3>
-                <h3>And then all the info you need is right there...</h3>
+        <section class="mainPage row">
+            <div class="mainBG directions p-3 mb-2 bg-secondary text-white" value= "pulsate">
+                <div class="secondBG row p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <h3 class="Direct">Directions</h3>
+                    <h3 class="tap" >Tap on the faces!</h3>
+                    <h3 class="presto">AND PRESTO!</h3>
+                    <button type="button" class="cool btn btn-warning">COOL!</button>
+                </div>
             </div>
-            <div class="location">
-                 <div class="BTN p-3 mb-2 p-3 mb-2 bg-light text-dark">
-                     <button type="button" class="ty friendFace btn btn-light">
-                         <img class="image img-fluid animate__animated animate__flip animate__infinite" src="./images/Ty_PNG.png" alt="Ty_PNG">
-                     </button>
-                     <div class="Liasion row">
-                        <h3 class="place"></h3>
+            <div class="friend mainBG">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <button type="button" class="zayd friendFace btn btn-light">
+                        <img class="img animate__animated animate__flip animate__infinite" src="./images/Steve_PNG.png" alt="Steve_PNG">
+                    </button>
+                    <div class="rottenRalphs information row">
+                       <h3 class="place">Rotten Ralphs</h3>
+                       <h3 class="time"></h3>
+                       <h3 class="address">201 Chestnut St.</h3>
+                       <button type="button" class="gmap btn btn-warning">GMaps</button>
+                   </div>
+                </div>
+           </div>
+            <div class="friend mainBG">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <button type="button" class="steve friendFace btn btn-light">
+                        <img class="img animate__animated animate__flip animate__infinite" src="./images/Me_PNG.png" alt="Me_PNG">
+                    </button>
+                    <div class="OCBeer information row">
+                        <h3 class="place">Old City Beer Garden</h3>
                         <h3 class="time"></h3>
-                        <h3 class="address"></h3>
+                        <h3 class="address">240 Market St.</h3>
+                        <button type="button" class="gmap btn btn-warning">GMaps</button>
+                    </div>
+                </div>
+            </div>
+            <div class="friend mainBG">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <button type="button" class="dani friendFace btn btn-light">
+                        <img class="img animate__animated animate__flip animate__infinite" src="./images/dani_PNG .png" alt="Dani_PNG">
+                    </button>
+                    <div class="daniHouse information row">
+                       <h3 class="place">Dani's House</h3>
+                       <h3 class="time"></h3>
+                       <h3 class="address">2015 N 5th St.</h3>
+                       <button type="button" class="gmap btn btn-warning">GMaps</button>
+                   </div>
+                </div>
+           </div>
+            <div class="friend mainBG">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <button type="button" class="trez friendFace btn btn-light">
+                        <img class="img animate__animated animate__flip animate__infinite" src="./images/Trez_PNG.png" alt="trez_PNG">
+                    </button>
+                    <div class="kiki information row">
+                        <h3 class="place">KiKi Garden</h3>
+                        <h3 class="time"></h3>
+                        <h3 class="address">1414 Marlborough St.</h3>
+                        <button type="button" class="gmap btn btn-warning">GMaps</button>
+                    </div>
+                </div>
+            </div>
+            <div class="friend mainBG">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <button type="button" class="jack friendFace btn btn-light">
+                        <img class="img animate__animated animate__flip animate__infinite" src="./images/Jack_PNG.png" alt="jack_PNG">
+                    </button>
+                    <div class="KFNT information row">
+                        <h3 class="place">Kung Fu Neck Tie</h3>
+                        <h3 class="time"></h3>
+                        <h3 class="address">1248 N Front St.</h3>
+                        <button type="button" class="gmap btn btn-warning">GMaps</button>
+                    </div>
+                </div>
+            </div>
+            <div class="friend mainBG">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <button type="button" class="jesse friendFace btn btn-light">
+                        <img class="img animate__animated animate__flip animate__infinite" src="./images/Jesse_PNG.png" alt="jesse_PNG">
+                    </button>
+                    <div class="garage information row">
+                        <h3 class="place">Garage</h3>
+                        <h3 class="time"></h3>
+                        <h3 class="address">100 E Girard Ave.</h3>
+                        <button type="button" class="gmap btn btn-warning">GMaps</button>
+                    </div>
+                </div>
+            </div>
+            <div class="friend mainBG">
+                <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                    <button type="button" class="myles friendFace btn btn-light">
+                        <img class="img animate__animated animate__flip animate__infinite" src="./images/Myles_PNG.png" alt="myles_PNG">
+                    </button>
+                    <div class="johnnyB information row">
+                        <h3 class="place">Johnny Brenda's</h3>
+                        <h3 class="time"></h3>
+                        <h3 class="address">1201 Frankford Ave.</h3>
+                        <button type="button" class="gmap btn btn-warning">GMaps</button>
+                    </div>
+                </div>
+            </div>
+            <div class="friend mainBG">
+                 <div class="secondBG p-3 mb-2 p-3 mb-2 bg-light text-dark">
+                     <button type="button" class="ty friendFace btn btn-light">
+                         <img class="img animate__animated animate__flip animate__infinite" src="./images/Ty_PNG.png" alt="Ty_PNG">
+                     </button>
+                     <div class="Liasion information row">
+                        <h3 class="place">Liasion Room</h3>
+                        <h3 class="time"></h3>
+                        <h3 class="address">1253 N Front St.</h3>
                         <button type="button" class="gmap btn btn-warning">GMaps</button>
                         <button type="button" class="ticket btn btn-warning">Tickets</button>
                     </div>
