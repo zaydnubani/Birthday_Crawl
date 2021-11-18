@@ -110,6 +110,7 @@ $( function() {
 } );
 
 $( function() {
+    $(".inviteCard").children("h3").attr("style", "font-size: 25px");
     // run the currently selected effect
     function runEffect() {
       // get effect type from

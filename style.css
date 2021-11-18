@@ -1,8 +1,8 @@
 *{
     font-family: 'Permanent Marker', cursive;
-    font-size: x-small;
 }
 
+/* Start of Start page */
 .startPage{
     display: flex;
     justify-content: center;
@@ -12,8 +12,8 @@
 
 .background{
     display: flex;
-    height: 300px;
-    width: 300px;
+    height: 640px;
+    width: 640px;
     border-radius: 100%;
     background-image: url("./images/lost_gif.gif");
     align-items: center;
@@ -22,13 +22,29 @@
 
 .face{
     display: flex;
-    height: 200px;
-    width: 200px;
+    height: 440px;
+    width: 440px;
     border-radius: 100%;
     align-items: center;
     justify-content: center;
 }
 
+.pat{
+    height: 340px;
+    width: 340px;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+}
+
+.button{
+    border-radius: 100%;
+}
+/* End of Start Page */
+
+/* Start of Invitation Page */
 .invitation{
     display: flex;
     justify-content: center;
@@ -39,8 +55,8 @@
 .invite{
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 300px;
+    height: 640px;
+    width: 640px;
     border-radius: 20%;
     align-items: center;
     justify-content: center;
@@ -49,11 +65,20 @@
 }
 .inviteCard{
     display: flex;
-    height: 250px;
-    width: 250px;
+    height: 440px;
+    width: 440px;
     border-radius: 20%;
     align-items: center;
     justify-content: center;
+}
+
+.inviteCard h3 {
+    font-size: x-large;
+}
+
+.yesNo{
+    height: 50px;
+    width: 50px;
 }
 
 .notComingCard{
@@ -78,14 +103,6 @@
     width: fit-content;
 }
 
-.yesNo{
-    height: 50px;
-    width: 50px;
-}
-
-.button{
-    border-radius: 100%;
-}
 
 .BTN{
     display: flex;
@@ -96,10 +113,6 @@
     justify-content: center;
 }
 
-.image{
-    height: 100px;
-    width: 100px;
-}
 
 .mainPage{
     display: flex;
