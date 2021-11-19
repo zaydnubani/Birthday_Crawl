@@ -39,8 +39,9 @@ $( function() {
 // start of invitation page
 // ```
 $( function() {
-    var birthday = moment("11/18/21", "MM-DD-YY").format("dddd, MMMM Do");
-    $(".date").text(birthday);
+    var birthday = moment("11/19/21", "MM-DD-YY").format("dddd, MMMM Do");
+    var time = moment("15:00:00", "HH:mm").format("h:mm a");
+    $(".date").text(birthday + " at " + time);
     $(".notComing").attr("style", "display: none");
     // run the currently selected effect
     function runEffect() {
@@ -391,7 +392,7 @@ $( function() {
   // Callback function to bring a hidden box back
   function callback() {
     setTimeout(function() {
-      $( ".KNFT" ).removeAttr( "style" ).hide().fadeIn();
+      $( ".KFNT" ).removeAttr( "style" ).hide().fadeIn();
     }, 1000 );
   };
 
